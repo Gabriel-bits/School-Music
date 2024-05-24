@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.body-style{
+    background-color: rgb(68, 86, 94);
+}
+
+.header-style{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 4rem;
+}
+
+.nav-logo-title{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-title a{
+    text-decoration: none;
+    margin: 0.5rem;
+    color: whitesmoke;
+}
+
+.nav-list-opcs ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-opc{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-opc a{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.nav-btn-contact{
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn-contact button{
+    border: 0;
+    background-color: darkcyan;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-btn-contact button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.01rem;
+}
+
+.intro-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(73, 114, 116);
+    height: 21rem;
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0 0 4px 4px;
+}
+
+.intro-text{
+    margin: 2.5rem;
+    width: 30rem;
+}
+
+.intro-img{
+    margin: 2.5rem;
+}
+
+.intro-img img{
+    border-radius: 4px;
+}
+
+.grid-containers{
+    margin: 1rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;    
+}
+
+.grid-item-img-title h2{
+    text-align: center;
+}
+
+.grid-item-img-title img{
+    border-radius: 4px;
+}
+
+.grid-item-text{
+    margin: 1rem;
+    width: 26rem;
+}
+
+.line{
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 25%;
+  border-color: #07060D;
+}
